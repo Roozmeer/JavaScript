@@ -10,9 +10,9 @@
 // console.log(describeCountry('Germany', 83.24, 'Berlin'));
 // console.log(describeCountry('France', 67.39, 'Paris'));
 
-function percentageOfWorld1(population) {
-    return (population / 7900) * 100;
-}
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
 // const Finland1 = percentageOfWorld1(6);
 // const Germany1 = percentageOfWorld1(83.24);
 // const France1 = percentageOfWorld1(67.39);
@@ -36,11 +36,11 @@ function percentageOfWorld1(population) {
 
 
 
-function describePopulation(country, population) {
-    const percentage = percentageOfWorld1(population);
-    return `${country} has ${population} million people, which is about ${percentage}% of the world population.`
-}
+// function describePopulation(country, population) {
+//     const percentage = percentageOfWorld1(population);
+//     return `${country} has ${population} million people, which is about ${percentage}% of the world population.`
+// }
 
-console.log(describePopulation('China', 1441));
-console.log(describePopulation('Finland', 6));
-console.log(describePopulation('France', 67.39));
+// console.log(describePopulation('China', 1441));
+// console.log(describePopulation('Finland', 6));
+// console.log(describePopulation('France', 67.39));
